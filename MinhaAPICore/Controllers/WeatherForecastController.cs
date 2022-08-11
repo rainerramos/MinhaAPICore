@@ -18,6 +18,7 @@ namespace MinhaAPICore.Controllers
             _logger = logger;
         }
 
+
         [HttpGet("obter-por-id/{id}")]
         public IEnumerable<WeatherForecast> Get()
         {
